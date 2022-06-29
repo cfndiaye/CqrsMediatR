@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lXPMM115ygGUEa7HiSaqa84yqc4kv71+R1rRL2cj4au02zZUO6QNyyyEyYhT4e1etFXHvt3DA35aGpwyw4qF3w==",
+  "dgSpecHash": "GCjN/43isdZobf+ZgeiAwUg3BuFhIE2T2Y/Ql7ZwN1cbtUafjICJscFM/gb8Lrlk96NuFdEp3lgEktwUyGe8WQ==",
   "success": true,
-  "projectFilePath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj",
+  "projectFilePath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

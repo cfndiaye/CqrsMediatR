@@ -38,11 +38,14 @@ namespace CqrsMediatR.API
                     Configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
             });
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+            
             services.AddSwaggerGen(c =>
             {
+                //c.IncludeXmlComments(string.Format(@"{0}\CQRS.WebApi.xml", System.AppDomain.CurrentDomain.BaseDirectory));
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CqrsMediatR.API", Version = "v1" });
             });
+
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

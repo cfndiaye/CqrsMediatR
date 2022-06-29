@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj": {}
+    "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.API\\CqrsMediatR.API.csproj": {}
   },
   "projects": {
-    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj": {
+    "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.API\\CqrsMediatR.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj",
+        "projectUniqueName": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.API\\CqrsMediatR.API.csproj",
         "projectName": "CqrsMediatR.API",
-        "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj",
-        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
-        "outputPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/obj/",
+        "projectPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.API\\CqrsMediatR.API.csproj",
+        "packagesPath": "C:\\Users\\cfndiaye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\cfndiaye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj": {
-                "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj"
+              "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj": {
+                "projectPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj"
               },
-              "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj": {
-                "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj"
+              "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Infrastructure\\CqrsMediatR.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Infrastructure\\CqrsMediatR.Infrastructure.csproj"
               }
             }
           }
@@ -57,6 +63,12 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -72,20 +84,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -94,26 +92,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj": {
+    "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj",
+        "projectUniqueName": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj",
         "projectName": "CqrsMediatR.Core",
-        "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj",
-        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
-        "outputPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/obj/",
+        "projectPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj",
+        "packagesPath": "C:\\Users\\cfndiaye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\cfndiaye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,34 +150,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj": {
+    "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Infrastructure\\CqrsMediatR.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Infrastructure\\CqrsMediatR.Infrastructure.csproj",
         "projectName": "CqrsMediatR.Infrastructure",
-        "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj",
-        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
-        "outputPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Infrastructure\\CqrsMediatR.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\cfndiaye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\cfndiaye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj": {
-                "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj"
+              "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj": {
+                "projectPath": "C:\\Users\\cfndiaye\\source\\repos\\CqrsMediatR\\CqrsMediatR\\CqrsMediatR.Core\\CqrsMediatR.Core.csproj"
               }
             }
           }
@@ -207,6 +217,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -219,22 +235,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

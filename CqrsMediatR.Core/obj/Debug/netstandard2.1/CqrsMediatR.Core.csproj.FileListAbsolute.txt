@@ -1,0 +1,10 @@
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\bin\Debug\netstandard2.1\CqrsMediatR.Core.deps.json
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\bin\Debug\netstandard2.1\CqrsMediatR.Core.dll
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\bin\Debug\netstandard2.1\CqrsMediatR.Core.pdb
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.csproj.AssemblyReference.cache
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.AssemblyInfoInputs.cache
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.AssemblyInfo.cs
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.csproj.CoreCompileInputs.cache
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.dll
+C:\Users\cfndiaye\source\repos\CqrsMediatR\CqrsMediatR\CqrsMediatR.Core\obj\Debug\netstandard2.1\CqrsMediatR.Core.pdb
