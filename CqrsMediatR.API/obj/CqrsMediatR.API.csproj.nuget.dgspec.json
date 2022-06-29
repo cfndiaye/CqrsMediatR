@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj": {}
+  },
+  "projects": {
+    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj",
+        "projectName": "CqrsMediatR.API",
+        "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/CqrsMediatR.API.csproj",
+        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
+        "outputPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj": {
+                "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj"
+              },
+              "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj": {
+                "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj",
+        "projectName": "CqrsMediatR.Core",
+        "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj",
+        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
+        "outputPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj",
+        "projectName": "CqrsMediatR.Infrastructure",
+        "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/CqrsMediatR.Infrastructure.csproj",
+        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
+        "outputPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj": {
+                "projectPath": "/Users/cfndiaye/Projects/CqrsMediatR/CqrsMediatR.Core/CqrsMediatR.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
