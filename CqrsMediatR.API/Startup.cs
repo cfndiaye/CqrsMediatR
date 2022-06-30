@@ -4,6 +4,8 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using CqrsMediatR.Infrastructure.Contexts;
+using CqrsMediatR.Infrastructure.Features.ProductFeatures.Queries;
+using CqrsMediatR.Infrastructure.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +17,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using static CqrsMediatR.Infrastructure.Features.ProductFeatures.Queries.GetAllProductsQuery;
 
 namespace CqrsMediatR.API
 {
@@ -32,12 +35,14 @@ namespace CqrsMediatR.API
         {
 
             services.AddControllers();
+            
             services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
             });
+
             
             services.AddSwaggerGen(c =>
             {
@@ -45,7 +50,13 @@ namespace CqrsMediatR.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CqrsMediatR.API", Version = "v1" });
             });
 
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+
+            //services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddMediatR(typeof(GetAllProductsQuery).GetTypeInfo().Assembly);
+            services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+           
+           
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
